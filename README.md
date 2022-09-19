@@ -5,23 +5,35 @@ This is a demonstration of a NFT validator.
 
 ## Available Scripts
 
-In the project directory, you can run:
+`npm start`
+`npm run build`
 
-### `npm start`
+## Project resources
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Git repos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+````
+https://www.figma.com/file/hfZvgdJjBEHT1NX5hcE7QM/%F0%9F%8E%86-Zurich-Hack
+https://github.com/tectrixer/backend-velasiraptor
+https://github.com/tectrixer/hackzurich
+https://github.com/Z4l3s5i0/frontend
+https://github.com/domochangit/hackzurich-nft-validator-ui
 
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### `npm test`
+https://twitter.com/hackzurich/status/1571488294571065347
+https://pbs.twimg.com/media/Fc8MRepWAAUINRT?format=jpg&name=large
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+https://hackzurich.com/workshops
+
+
+https://drive.google.com/drive/folders/1r57jpuDhQETPNGMPy_B-Wkmv7U4ntzzZ
+https://sbhack.trustsquare.ch/sbhack22-velas-challenge
+
+
+Bogdan - bogdan@velas.com
+Pedro - pedro.lopez-belmonte@richemont.com
+
