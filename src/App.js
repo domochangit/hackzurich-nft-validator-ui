@@ -19,7 +19,7 @@ export default function App() {
     return (
 
         <div className="App algingin">
-            <BrowserRouter basename="/build">
+            <BrowserRouter basename="/">
                 <HeaderH links={[{ link: '/', label: 'search' }, { link: '/contact', label: 'contact' }]} />
                 {//<img className={"background"} src={backgroundPic}/>
                 }
