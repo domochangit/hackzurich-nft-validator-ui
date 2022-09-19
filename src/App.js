@@ -20,7 +20,7 @@ export default function App() {
 
         <div className="App algingin">
             <BrowserRouter basename="/">
-                <HeaderH links={[{ link: '/', label: 'search' }, { link: '/contact', label: 'contact' }]} />
+                <HeaderH links={[{ link: '/projects/hackzurich2022/', label: 'search' }, { link: '/contact', label: 'contact' }]} />
                 {//<img className={"background"} src={backgroundPic}/>
                 }
                 <Container className={"container"}>
