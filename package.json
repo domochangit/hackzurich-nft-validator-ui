@@ -1,6 +1,6 @@
 {
-  "name": "frontend",
-  "homepage": "https://z4l3s5i0.github.io/build/",
+  "name": "NFT validator",
+  "homepage": "https://github.com/domochangit/hackzurich-nft-validator-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
