@@ -1,0 +1,63 @@
+
+
+
+.filled{
+    background: #8078E0;
+}
+.filled:hover{
+    background: #4A3FAA;
+}
+.filled:active{
+    background: #231870;
+}
+
+.outlined{
+    background: #FFFFFF;
+    border: 2px solid #8078E0;
+}
+.outlined:hover{
+    background: #F4F3FA;
+    border: 2px solid #4A3FAA;
+}
+.outlined:active{
+    background: #E4DCF9;
+    border: 2px solid #8078E0;
+}
+.outlined{
+    box-sizing: border-box;
+}
+.ghost:hover{
+    background: #F4F3FA;
+}
+.ghost:active{
+    background: #E4DCF9;
+}
+.large{
+    padding: 16px 36px;
+
+    width: 135px;
+    height: 64px;
+}
+.medium{
+    padding: 12px 28px;
+
+    width: 107px;
+    height: 48px;
+}
+.small{
+    padding: 8px 12px;
+
+    width: 69px;
+    height: 32px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+
+    position: absolute;
+
+    border-radius: 8px;
+}
+

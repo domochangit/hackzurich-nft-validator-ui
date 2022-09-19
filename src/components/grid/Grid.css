@@ -1,0 +1,46 @@
+/* Search bar / cell / menu */
+
+/* Auto layout */
+
+/* display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 483px;
+
+position: absolute;
+height: 48px;
+left: 64px;
+right: 64px;
+top: 543px; */
+
+.card {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    /* display: flex; */
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+
+    width: 276px;
+    height: 375px;
+
+    /* Secondary / 300 */
+    border: 1px solid #cac9cc;
+    border-radius: 18px;
+}
+
+.card-image img {
+    width: 250px;
+}
+
+.card-description {
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+}
+

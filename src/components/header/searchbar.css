@@ -1,0 +1,100 @@
+.alignInput{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    alignment: center;
+    margin-left: auto;
+}
+
+.searchbar{
+    min-width: 80%;
+    gap: 16px;
+    display: flex;
+    justify-content: flex-start;
+    border-style: solid;
+    border-color: #ebebed;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 15px 23px 15px 31px;
+    border-width: 1px;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.Root{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    height: 708px;
+    left: 820px;
+    right: 64px;
+    top: 512px;
+
+
+}
+.searchbar:hover{
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #ebebed;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 24px 0px rgba(151, 71, 255, 0.2);
+    border-radius: 40px;
+    padding: 15px 23px 15px 31px;
+    border-width: 1px;
+}
+.searchbarImage {
+    width: 12px;
+    height: 12px;
+}
+.searchbar:active{
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #ebebed;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 24px 0px rgba(151, 71, 255, 0.2);
+    border-radius: 30px;
+    padding: 15px 23px 15px 31px;
+    border-width: 1px;
+}
+.text{
+    width: 80%;
+    display: inline-block;
+    flex-grow: 1;
+    padding: 0px;
+    color: #818082;
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 24px;
+    outline-width: 0px;
+    border-width: 0px;
+    background: none;
+    placeholder: #818082;
+}
+.text:active{
+    width: 240px;
+    display: inline-block;
+    flex-grow: 1;
+    padding: 0px;
+    color: #444445;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Inter;
+    line-height: 24px;
+    outline-width: 0px;
+    border-width: 0px;
+    background: none;
+    placeholder: #444445;
+}

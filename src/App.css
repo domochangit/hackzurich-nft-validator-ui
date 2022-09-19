@@ -1,0 +1,166 @@
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 483px;
+
+    position: absolute;
+    height: 48px;
+    left: 64px;
+    right: 64px;
+    top: 543px;
+}
+
+.search-title {
+    text-align: left;
+
+    width: 467px;
+    height: 48px;
+
+    /* Desktop/Heading/Bold/H4 - 32px */
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+    /* Text / 500 */
+
+    color: #444445;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.card-container {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+    flex-direction: row;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.filter-zone{
+    width: 300px;
+    flex: none;
+}
+
+.result-zone {
+    display: flex;
+}
+
+
+
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    align-self: center;
+    height: 15vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+.scam {
+    background-color: #ffe7e7;
+    border-color: #a82525;
+}
+.verified {
+    background-color: #e7faf5;
+    border-color: #21725e;
+}
+.textScam {
+    color: #a82525;
+}
+.textVerified {
+    color: #21725e;
+}
+.logof {
+    padding-right: 50%;
+    size: 0.25px;
+    display: inline-block;
+}
+.algingin {
+    align-self: center;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    margin-right: -25px;
+    height: 708px;
+    left: 750px;
+    right: 64px;
+    top: 512px;
+}
+
+.titelOfNFT {
+    position: absolute;
+    height: 48px;
+    left: 64px;
+    right: 64px;
+    top: 420px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #444445;
+}
+.smaller {
+    width: 75%;
+    height: 75%;
+}
+.nft {
+    margin-left: -25px;
+    position: absolute;
+    width: 646px;
+    height: 646px;
+    left: 64px;
+    top: 512px;
+    border-radius: 16px;
+    size: 0.5px;
+}
+.container {
+    margin-top: 150px;
+    align-self: center;
+    height: 150px;
+    display-role: "flex";
+    flexdirection: "column";
+    justifycontent: "flex-end";
+    alignitems: "flex-start";
+}
+.background {
+    position: absolute;
+    top: 0px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
