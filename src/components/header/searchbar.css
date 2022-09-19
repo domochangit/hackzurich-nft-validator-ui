@@ -8,7 +8,6 @@
 }
 
 .searchbar{
-    min-width: 80%;
     gap: 16px;
     display: flex;
     justify-content: flex-start;
@@ -21,6 +20,7 @@
     flex-direction: row;
     align-items: center;
     margin: auto;
+    width: 500px;
 }
 .Root{
     display: flex;

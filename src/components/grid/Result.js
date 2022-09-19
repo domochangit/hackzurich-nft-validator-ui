@@ -1,8 +1,8 @@
 import React, {Component, createElement} from "react";
 import styled from "styled-components";
-import infoiconGreen from "../../pictures/infoiconGreen.png"
-import infoiconRed from "../../pictures/infoiconRed.png"
-import velasIcon from "../../pictures/velasIcon.png"
+import infoiconGreen from "./../../pictures/infoiconGreen.png"
+import infoiconRed from "./../../pictures/infoiconRed.png"
+import velasIcon from "./../../pictures/velasIcon.png"
 
 export default class Result extends Component {
     constructor(props) {
@@ -147,7 +147,6 @@ export default class Result extends Component {
   align-self: stretch;
   color: #9c9c9e;
   font-size: 12px;
-  font-family: Inter;
   line-height: 16px;
 `;
     const CollectionData = styled.div`
@@ -169,7 +168,6 @@ export default class Result extends Component {
     const Attribute5 = styled.div`
   color: #9c9c9e;
   font-size: 18px;
-  font-family: Inter;
   line-height: 22px;
   white-space: pre-wrap;
 `;
@@ -179,7 +177,6 @@ export default class Result extends Component {
   color: #444445;
   font-size: 20px;
   font-weight: 600;
-  font-family: Inter;
   line-height: 24px;
   text-align: right;
 `;
@@ -207,14 +204,12 @@ export default class Result extends Component {
     const Text1 = styled.div`
   color: #818082;
   font-size: 20px;
-  font-family: Inter;
   line-height: 24px;
   white-space: nowrap;
 `;
     const Text2 = styled.div`
   font-size: 56px;
   font-weight: 700;
-  font-family: Inter;
   line-height: 64px;
   text-decoration: underline;
   white-space: nowrap;
@@ -261,14 +256,12 @@ export default class Result extends Component {
   color: #444445;
   font-size: 32px;
   font-weight: 700;
-  font-family: Inter;
   line-height: 48px;
 `;
     const Paragraph = styled.div`
   align-self: stretch;
   color: #a9a9ad;
   font-size: 12px;
-  font-family: Inter;
   line-height: 16px;
 `;
     const Price1 = styled.div`
@@ -285,7 +278,6 @@ export default class Result extends Component {
     const Text4 = styled.div`
   color: #a9a9ad;
   font-size: 12px;
-  font-family: Inter;
   line-height: 16px;
   white-space: nowrap;
 `;
@@ -304,7 +296,6 @@ export default class Result extends Component {
   color: #444445;
   font-size: 22px;
   font-weight: 600;
-  font-family: Inter;
   line-height: 26px;
   white-space: nowrap;
 `;
@@ -330,7 +321,6 @@ export default class Result extends Component {
   color: #444445;
   font-size: 16px;
   font-weight: 500;
-  font-family: Inter;
   line-height: 20px;
 `;
     const FlexRow3 = styled.div`
@@ -347,7 +337,6 @@ export default class Result extends Component {
       color: #444445;
   font-size: 16px;
   font-weight: 500;
-  font-family: Inter;
   line-height: 20px;
 `;
     const Verified = styled.img`
@@ -373,7 +362,6 @@ export default class Result extends Component {
   color: #444445;
   font-size: 32px;
   font-weight: 700;
-  font-family: Inter;
   line-height: 48px;
   white-space: nowrap;
 `;
@@ -388,7 +376,6 @@ export default class Result extends Component {
     const Attribute4 = styled.div`
   color: #9c9c9e;
   font-size: 18px;
-  font-family: Inter;
   line-height: 22px;
   white-space: nowrap;
 `;
@@ -398,7 +385,6 @@ export default class Result extends Component {
   color: #444445;
   font-size: 20px;
   font-weight: 600;
-  font-family: Inter;
   line-height: 24px;
   text-align: right;
 `;

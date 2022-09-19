@@ -6,25 +6,26 @@ import Result from "./components/grid/Result";
 import Grid from "./components/grid/Grid";
 import { BrowserRouter } from "react-router-dom";
 import backgroundPic from "./pictures/backgroundPic.jpg";
-import Searchbar2 from "./components/header/Searchbar2.0";
+import Searchbar from "./components/header/Searchbar";
 import { Container } from "@mantine/core";
 
 
 export default function App() {
     const [result, setResult] = useState(-1);
 
-    console.log("result:");
-    console.log(result);
+    // console.log("result:");
+    // console.log(result);
 
     return (
 
-        <div className="App algingin">
+        <div className="App">
             <BrowserRouter basename="/">
-                <HeaderH links={[{ link: '/projects/hackzurich2022/', label: 'search' }, { link: '/contact', label: 'contact' }]} />
-                {//<img className={"background"} src={backgroundPic}/>
-                }
+
+                <HeaderH links={[{ link: '/projects/hackzurich2022/', label: 'search' }, { link: './hackzurich2022/contact', label: 'contact' }]} />
+
                 <Container className={"container"}>
-                    <Searchbar2 setResult={setResult} />
+                    <h1 className='website-title'>VALIDATE THE NFT</h1>
+                    <Searchbar setResult={setResult} />
                 </Container>
 
                 {Object.prototype.toString.call(result).indexOf("Array") > - 1 &&
@@ -43,10 +44,12 @@ export default function App() {
                         </div>
                     </div>
                 }
+
                 {result.metadata !== undefined &&
                     Object.prototype.toString.call(result).indexOf("Object") > - 1 &&
                     <Result result={result} />
                 }
+
             </BrowserRouter>
         </div>
 

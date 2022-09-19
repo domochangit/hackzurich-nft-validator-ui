@@ -34,6 +34,7 @@ https://pbs.twimg.com/media/Fc8MRepWAAUINRT?format=jpg&name=large
 
 https://hackzurich.com/workshops
 https://sbhack.trustsquare.ch/sbhack22-velas-challenge
+https://app.creatorspace.dev/danielsimko/projects/velasiraptors
 
 ### Documentation
 

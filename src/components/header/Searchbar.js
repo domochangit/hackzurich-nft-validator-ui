@@ -3,7 +3,7 @@ import "./searchbar.css"
 import styled from "styled-components";
 import {TextInput} from "@mantine/core";
 
-class Searchbar2 extends Component{
+class Searchbar extends Component{
     constructor(props){
         super(props);
         this.state={
@@ -19,11 +19,15 @@ class Searchbar2 extends Component{
     }
 componentDidUpdate(prevProps: Readonly<P>, prevState: Readonly<S>, snapshot: SS) {
         if (prevState.query !== this.state.query){
+            /*
             fetch("https://backend-velasiraptor-gvom4czscq-oa.a.run.app/search", {
                 method: 'POST',
                 headers: {"Content-Type": "text/plain"},
                 body: this.state.query
             }).then((res) => res.json())
+            */
+
+            fetch("./../../static-data.json").then((res) => res.json())
                 .then((result) => {
                     if (result.err !== undefined){
                         this.setState({error: result});
@@ -39,7 +43,6 @@ componentDidUpdate(prevProps: Readonly<P>, prevState: Readonly<S>, snapshot: SS)
 }
 updateResults(){
         this.props.setResult(this.state.results);
-        //navigateTo Results
 }
 updateQuery(){
         this.setState({query: this.state.beforeQuery});
@@ -87,4 +90,4 @@ const SearchIcon = styled.div`
   border-radius: 50px;
   padding: 9px;
 `;
-export default Searchbar2;
+export default Searchbar;
