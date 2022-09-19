@@ -17,9 +17,10 @@ Demo: https://n0lab.com/projects/hackzurich2022/
 ```
 https://www.figma.com/file/hfZvgdJjBEHT1NX5hcE7QM/%F0%9F%8E%86-Zurich-Hack
 https://github.com/tectrixer/backend-velasiraptor
+https://github.com/domochangit/hackzurich-nft-validator-ui
+
 https://github.com/tectrixer/hackzurich
 https://github.com/Z4l3s5i0/frontend
-https://github.com/domochangit/hackzurich-nft-validator-ui
 
 ```
 
