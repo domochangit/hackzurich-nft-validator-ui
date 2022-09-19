@@ -46,3 +46,7 @@ https://drive.google.com/drive/folders/1r57jpuDhQETPNGMPy_B-Wkmv7U4ntzzZ
 Bogdan - bogdan@velas.com
 Pedro - pedro.lopez-belmonte@richemont.com
 
+### UI project github.io builds
+
+https://z4l3s5i0.github.io/build/
+https://tectrixer.github.io/hackzurich/

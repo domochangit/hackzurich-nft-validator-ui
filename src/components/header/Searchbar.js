@@ -19,15 +19,15 @@ class Searchbar extends Component{
     }
 componentDidUpdate(prevProps: Readonly<P>, prevState: Readonly<S>, snapshot: SS) {
         if (prevState.query !== this.state.query){
-            /*
+            
             fetch("https://backend-velasiraptor-gvom4czscq-oa.a.run.app/search", {
                 method: 'POST',
                 headers: {"Content-Type": "text/plain"},
                 body: this.state.query
             }).then((res) => res.json())
-            */
+            
 
-            fetch("./../../static-data.json").then((res) => res.json())
+            // fetch("./../../static-data.json").then((res) => res.json())
                 .then((result) => {
                     if (result.err !== undefined){
                         this.setState({error: result});
